@@ -14,18 +14,18 @@ typedef struct gpio_drive_strength_table {
 } gpio_drive_strength_table_t;
 
 static gpio_pull_table_t soc_gpio_pull_table[] = {
-	{ GPIO_PB(27), GPIO_PULL_UP }, //TF cd
+//	{ GPIO_PB(27), GPIO_PULL_UP }, //TF cd
 };
 
 static gpio_drive_strength_table_t soc_gpio_drive_strength_table[] = {
-	/* TF Card */
+	/* TF Card 
 	{ GPIO_PB(0), DS_8_MA }, //MSC0_D0
 	{ GPIO_PB(1), DS_8_MA }, //MSC0_D1
 	{ GPIO_PB(2), DS_8_MA }, //MSC0_D2
 	{ GPIO_PB(3), DS_8_MA }, //MSC0_D3
 	{ GPIO_PB(4), DS_8_MA }, //MSC0_CLK
 	{ GPIO_PB(5), DS_8_MA }, //MSC0_CMD
-
+*/
 };
 
 int gpio_drive_strength_init(void)
