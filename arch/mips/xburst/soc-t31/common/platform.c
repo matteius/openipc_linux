@@ -36,9 +36,9 @@ struct jz_gpio_func_def platform_devio_array[] = {
 #ifdef CONFIG_JZMMC_V12_MMC0_PB_4BIT
 	MSC0_PORTB_4BIT,
 #endif
-#ifdef CONFIG_JZMMC_V12_MMC1_PB_4BIT
-	MSC1_PORTB,
-#endif
+//#ifdef CONFIG_JZMMC_V12_MMC1_PB_4BIT
+//	MSC1_PORTB,
+//#endif
 #ifdef CONFIG_JZMMC_V12_MMC1_PC_4BIT
 	MSC1_PORTC,
 #endif
